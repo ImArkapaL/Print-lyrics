@@ -3,12 +3,12 @@ import time
 lines = [
     "Ever since I was a kid, I been legit",
     "If I was you, I would cut up my wrist",
-    "XO tatted all over her body, yeah"
-    "She just wanna roll and I don't mind it, yeah"
-    "Ever since I was a jit, I been legit"
-    "You should let her go, she wanna be it"
-    "Double-O tatted on her body, yeah"
-    "It don't matter what they say, I'm timeless, yeah"
+    "XO tatted all over her body, yeah",
+    "She just wanna roll and I don't mind it, yeah",
+    "Ever since I was a jit, I been legit",
+    "You should let her go, she wanna be it",
+    "Double-O tatted on her body, yeah",
+    "It don't matter what they say, I'm timeless, yeah",
 ]
 
 # Example delays for each line (in seconds)
