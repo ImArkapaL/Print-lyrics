@@ -11,27 +11,27 @@ lines = [
     "It don't matter what they say, I'm timeless, yeah",
 ]
 
-# Character delay (in seconds)
-char_delay = 0.07  # Adjust this for how fast characters appear
 
-# Delays for each line based on the song's timing (in seconds)
+char_delay = 0.07
+
+
 delays = [
-    1.8,  # Delay after the first line
-    1.3,  # Delay after the second line
-    1.5,  # Delay after the third line
-    0.1,  # Delay after the fourth line
-    0.8,  # Delay after the fifth line
-    1.5,  # Delay after the sixth line
-    1.2,  # Delay after the seventh line
-    1.0,  # Delay after the eighth line
+    1.8,  
+    1.3,  
+    1.5,  
+    0.1,  
+    0.8,  
+    1.5,  
+    1.2,  
+    1.0,  
 ]
 
 def print_lyrics():
     for i, line in enumerate(lines):
         for char in line:
-            print(char, end='', flush=True)  # Print character without newline
-            time.sleep(char_delay)  # Delay for each character
-        time.sleep(delays[i])  # Delay after each line
-        print("")  # Print a newline after each line
-
+            print(char, end='', flush=True)
+            time.sleep(char_delay)
+        time.sleep(delays[i])
+        print("") 
+        print("coded by Arka")
 print_lyrics()
