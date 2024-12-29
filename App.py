@@ -11,11 +11,23 @@ lines = [
     "It don't matter what they say, I'm timeless, yeah",
 ]
 
-# Example delays for each line (in seconds)
-delays = []  # Adjust the delays as needed
+# Character delay (in seconds)
+char_delay = 0.07  # Adjust this for how fast characters appear
+
+# Delays for each line based on the song's timing (in seconds)
+delays = [
+    1.8,  # Delay after the first line
+    1.3,  # Delay after the second line
+    1.5,  # Delay after the third line
+    0.1,  # Delay after the fourth line
+    0.8,  # Delay after the fifth line
+    1.5,  # Delay after the sixth line
+    1.2,  # Delay after the seventh line
+    1.0,  # Delay after the eighth line
+]
 
 def print_lyrics():
-    for i, (line, char_delay) in enumerate(zip(lines, delays)):
+    for i, line in enumerate(lines):
         for char in line:
             print(char, end='', flush=True)  # Print character without newline
             time.sleep(char_delay)  # Delay for each character
